@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+.stop-watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+    padding: 16px;
+    background-color: lightgray;
+}
+.display{
+    font-size: 5rem;
+    font-weight: bold;
+    color: black ;
+    margin-bottom: 20px;
+}
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
